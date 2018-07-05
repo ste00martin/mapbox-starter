@@ -4,7 +4,11 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "ix": "react-native run-ios --simulator=\"iPhone X\"",
+    "se": "react-native run-ios --simulator=\"iPhone SE\""
   },
   "dependencies": {
     "@mapbox/react-native-mapbox-gl": "^6.1.2-beta2",
