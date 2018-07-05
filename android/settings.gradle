@@ -1,0 +1,3 @@
+rootProject.name = 'MapboxStarter'
+
+include ':app'
